@@ -1,0 +1,98 @@
+*{
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+body{
+    background-color: gray;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+label{
+    padding: .5rem;
+    color:orange;
+    font-size: 1.2rem;
+}
+
+input{
+    height: 30px;
+    border-radius: .3rem;
+    border: none;
+    font-size: 1.2rem;
+    background-color: grey;
+    color: #fff;
+    padding: .5rem;
+    
+}
+
+.form-box{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 90%;
+    background-color: black;
+    height: 80vh;
+    color:white;
+    border-radius: .3rem;
+    padding: 10px;
+    padding-left: 30px;
+}
+input::placeholder{
+    color: #afafaf;
+}
+
+.form-item{
+    display: inline-block;
+    margin: 10px;
+}
+
+input[name = 'cep']{
+    width: 20%;
+}
+
+input[name = 'rua']{
+    width: 70%;
+}
+
+input[name = 'bairro']{
+    width: 30%;
+}
+
+input[name = 'cidade']{
+    width: 40%;
+}
+
+input[name = 'estado']{
+    width: 10%;
+}
+
+.btn-enviar{
+    width: 20%;
+    margin: 20px 0;
+    height: 40px;
+    border-radius: .3rem;
+    background-color: orange;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.btn-enviar:hover{
+    background-color: rgb(180, 117, 0);
+}
+
+.btn-enviar:active{
+    background-color: rgb(32, 189, 32);
+}
